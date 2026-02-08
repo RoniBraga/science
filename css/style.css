@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
     display: flex;
@@ -12,9 +13,10 @@ header .logo{
     padding: 20px;
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 40px;
     font-size: 20px;
     color: #fff;
+    
 }
 header .logo img{
     padding-right: 20px;
@@ -37,4 +39,93 @@ header .menu nav ul{
 .menu nav ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+section .data_post{
+   margin-top: 40px;
+   display: flex;
+    justify-content: space-around;
+
+}
+section .data_post_title{
+    color: #d0515a;
+    font-size: 30px;
+    
+    
+}
+section .data_post_subtitle{
+    color: #333159;
+    font-size: 120px;
+    font-weight: bold;
+   
+}
+section .data_post_desc{
+    font-size: 30px;
+   
+   
+}
+section .posts{
+    padding-top:40px;
+    width: 60%;
+     margin-left: 30px;
+}
+.image_logo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.image_logo img{
+    border-radius: 250px;
+    border: 10px solid rgb(5, 4, 4);
+   
+}
+.information{
+    display: flex;
+   border-radius: 10px;
+    padding: 40px;
+}
+.infor-date,
+.infor-hours,
+.infor-seats,
+.infor-price{
+    padding: 20px;
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    
+    
+}
+.infor-date,
+.infor-hours{
+    border-right: 2px dotted #61d2e0;
+    
+}
+.infor-date{
+    border-radius: 10px 0px 0px 10px;
+}
+.infor-date,.infor-hours,.infor-seats{
+    background-color: #efefef;
+}
+.infor-price{
+    background-color: #00bcd5;
+    border-radius: 0px 10px 10px 0px;
+}
+.date,.hours,.price,.seats{
+    color: #32305d;
+    font-size: 40px;
+    font-weight: bold;
+}
+.date_title,.hours_title,.seats_title{
+    color: #d0515a;
+}
+.price_title{
+    color: #fff;
+}
+
+.date_desc,.hours_desc,.seats_desc,.price_desc{
+    margin-top: 20px;
 }
