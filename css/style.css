@@ -13,6 +13,7 @@ header{
     width: 1220px;
     display: flex;
     justify-content: space-between;
+    
    
    
 }
@@ -381,3 +382,77 @@ aside{
     font-size: 20px;
     max-width: 250px;
 }
+.area_contact{
+    
+    background-image: url(../image/banner_contact.png);
+    background-size: cover;
+     position: relative;
+}
+.area_contact_desc{
+   height: 400px;
+   padding-top: 30px;
+}
+.area_contact_title{
+    font-size: 40px;
+    color: #21385b;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.area_contact_number, .area_contact_email{
+    font-size: 16px;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.area_form{
+    background-color: #efefef;
+    padding: 20px;
+    min-width: 630px;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    right:70px
+}
+.area_form input{
+    
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    
+    }
+    .area_form button{
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #e34c5d;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+        border: none;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 200px;
+        
+    }
+    .direitos{
+        display: flex;
+        align-items: center;
+    }
+    .midias_sociais{       
+        margin: 10px;
+      
+
+    }
+    .midias_sociais img{
+        width: 50px;
+        padding: 10px;
+    }
+    
